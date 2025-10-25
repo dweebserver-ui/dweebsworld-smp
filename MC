@@ -1,0 +1,136 @@
+<div>
+<div>&lt;!DOCTYPE html&gt;</div>
+<div>&lt;html lang="en"&gt;</div>
+<div>&lt;head&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta charset="UTF-8"&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</div>
+<div>&nbsp; &nbsp; &lt;title&gt;DweebsWorld SMP&lt;/title&gt;</div>
+<div>&nbsp; &nbsp;</div>
+<div>&nbsp; &nbsp; &lt;!-- --- OPEN GRAPH (OG) META TAGS FOR DISCORD PREVIEW --- --&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- The main title of the preview --&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta property="og:title" content="DweebsWorld SMP - Official Server Page"&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- The description that shows up below the title --&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta property="og:description" content="Survive. Build. Earn. Flex. Repeat. | Join our friendly, non-pay-to-win Minecraft server focused on community and progression."&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- The URL for the thumbnail image. We use your uploaded header image here. --&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta property="og:image" content="image.jpg"&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- The type of content --&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta property="og:type" content="website"&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- The URL where the page lives (Placeholder - replace when hosted!) --&gt;</div>
+<div>&nbsp; &nbsp; &lt;meta property="og:url" content="https://yourserverlink.com/dweebsworld"&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- --- END OG TAGS --- --&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &lt;!-- Load Tailwind CSS --&gt;</div>
+<div>&nbsp; &nbsp; &lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</div>
+<div>&nbsp; &nbsp; &lt;!-- Load Inter Font --&gt;</div>
+<div>&nbsp; &nbsp; &lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"&gt;</div>
+<div>&nbsp; &nbsp; &lt;style&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; body {</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; font-family: 'Inter', sans-serif;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; scroll-behavior: smooth;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; /* Custom gradient for the hero section with map background */</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; .hero-bg {</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background: linear-gradient(180deg, rgba(16, 24, 40, 0) 0%, #171717 100%),</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; url('image.jpg') no-repeat center center;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background-size: cover;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<div>&nbsp; &nbsp; &lt;/style&gt;</div>
+<div>&lt;/head&gt;</div>
+<div>&lt;body class="bg-gray-900 text-gray-100 min-h-screen antialiased"&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &lt;!-- Header / Hero Section --&gt;</div>
+<div>&nbsp; &nbsp; &lt;header class="hero-bg py-20 md:py-32 rounded-b-3xl shadow-xl"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="max-w-7xl mx-auto px-6 text-center"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1 class="text-6xl md:text-8xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-green-500 mb-4 animate-pulse drop-shadow-[0_0_10px_#84cc16]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DweebsWorld SMP</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/h1&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-xl md:text-3xl font-light text-gray-300 drop-shadow-[0_0_5px_#000000]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Survive. Build. Earn. Flex. Repeat.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Call to Action (Mock Button) --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class="mt-8 px-8 py-3 bg-lime-500 text-gray-900 font-bold rounded-full shadow-lg hover:bg-lime-400 transition duration-300 transform hover:scale-105"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Join Now! (Play.DweebsWorld.net)</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/button&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<div>&nbsp; &nbsp; &lt;/header&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &lt;!-- Main Content Grid --&gt;</div>
+<div>&nbsp; &nbsp; &lt;main class="max-w-7xl mx-auto px-4 py-16 md:py-24"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Feature Card 1: Your World --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-lime-500 transform transition duration-300 hover:scale-[1.02]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-5xl mb-4 block"&gt;🪓&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl font-bold mb-3 text-lime-400"&gt;Your World, Your Story&lt;/h2&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-300 leading-relaxed"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Every player starts small&mdash;a pickaxe, a dream, and a few too many creepers. Go from cozy cabins to sprawling megabases, powered by creativity and hard work. **Build anywhere**, claim your land, and make it uniquely yours.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Feature Card 2: Economy --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-lime-500 transform transition duration-300 hover:scale-[1.02]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-5xl mb-4 block"&gt;💸&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl font-bold mb-3 text-lime-400"&gt;Play, Earn, Repeat&lt;/h2&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-300 leading-relaxed"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Featuring dynamic ways to make your mark. Run jobs, sell loot, or trade in the player markets and auctions. Work hard, or just **vibe with your farm**. Either way, you're guaranteed to grow.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Feature Card 3: Rewards --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-lime-500 transform transition duration-300 hover:scale-[1.02]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-5xl mb-4 block"&gt;🎁&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl font-bold mb-3 text-lime-400"&gt;Rewards &amp; Surprises&lt;/h2&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-300 leading-relaxed"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Yes, we've got crates! Vouchers, gifts, event keys, and seasonal passes are all waiting for you to unlock. Play often, **vote daily**, and watch your rewards stack up fast without any required purchases.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Feature Card 4: Cosmetics --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-lime-500 transform transition duration-300 hover:scale-[1.02]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-5xl mb-4 block"&gt;✨&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl font-bold mb-3 text-lime-400"&gt;Looks Matter Too&lt;/h2&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-300 leading-relaxed"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Why just survive when you can look good doing it? Unlock wings, pets, custom armor, glowing names, and particle effects. **Everything is cosmetic**&mdash;we are strictly **not pay-to-win**.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Feature Card 5: Adventure --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-lime-500 transform transition duration-300 hover:scale-[1.02]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-5xl mb-4 block"&gt;🧭&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl font-bold mb-3 text-lime-400"&gt;Adventure Beyond&lt;/h2&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-300 leading-relaxed"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Teleport across multiple dedicated worlds&mdash;Survival, Nether, End, and Resource worlds&mdash;all linked through clean menus and portals. Enjoy **safe claims, fair rules, and smooth gameplay** wherever you go.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Feature Card 6: Community --&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="bg-gray-800 p-8 rounded-xl shadow-2xl border-b-4 border-lime-500 transform transition duration-300 hover:scale-[1.02]"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-5xl mb-4 block"&gt;❤️&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="text-3xl font-bold mb-3 text-lime-400"&gt;Community Vibes&lt;/h2&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-gray-300 leading-relaxed"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Friendly players, helpful staff, and constant updates. We host frequent events, giveaways, and maintain a Discord full of friendly chaos (the fun kind). Whether you're new or OG, **DweebsWorld always has a spot for you.**</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<div>&nbsp; &nbsp; &lt;/main&gt;</div>
+<br />
+<div>&nbsp; &nbsp; &lt;!-- Footer / Closing Statement --&gt;</div>
+<div>&nbsp; &nbsp; &lt;footer class="bg-gray-900 py-12"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="max-w-7xl mx-auto px-6 text-center"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="w-20 h-20 bg-lime-500 rounded-full mx-auto flex items-center justify-center mb-4"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="text-4xl"&gt;🧠&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-2xl font-light italic text-gray-400"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DweebsWorld SMP isn't just another server&mdash;it's our shared story, written one block at a time.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="text-sm text-gray-500 mt-6"&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Connect: &lt;span class="text-lime-400 font-medium"&gt;DweebsWorld.mc.gg&lt;/span&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+<div>&nbsp; &nbsp; &lt;/footer&gt;</div>
+<br />
+<div>&lt;/body&gt;</div>
+<div>&lt;/html&gt;</div>
+</div>
